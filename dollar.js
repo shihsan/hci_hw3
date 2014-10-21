@@ -146,7 +146,7 @@ function DollarRecognizer() // constructor
 	this.Unistrokes[19] = new Unistroke("heart", new Array(new Point(200,400),new Point(100,300),new Point(150,250),new Point(200,300),new Point(250,250),new Point(300,300),new Point(201,399)));
 	this.Unistrokes[20] = new Unistroke("house", new Array(new Point(100,200),new Point(200,100),new Point(300,200),new Point(100,201),new Point(100,300),new Point(300,300),new Point(300,201)));
 	this.Unistrokes[21] = new Unistroke("four_square", new Array(new Point(150,150),new Point(150,100),new Point(100,100),new Point(100,150),new Point(250,150),new Point(250,100),new Point(200,100),new Point(200,150),new Point(250,250),new Point(250,200),new Point(100,200),new Point(100,250),new Point(150,250),new Point(150,151)));
-	// this.Unistrokes[22] = new Unistroke("", new Array());
+	
 	//
 	// The $1 Gesture Recognizer API begins here -- 3 methods: Recognize(), AddGesture(), and DeleteUserGestures()
 	//
